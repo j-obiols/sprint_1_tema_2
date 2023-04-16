@@ -92,3 +92,23 @@ aside {
     height: 18px;
     background-color:#E4A434;    
 }
+
+@media only screen and (max-width: 600px) {
+
+    main {
+        display: flex;
+        flex-direction: column;
+        background-color: #FFF734;
+    }
+
+    article {
+        width: auto;
+        margin-bottom: 18px;
+    } 
+
+    aside {
+        width: auto;
+        margin-left: 0;
+        padding-bottom: 18px;
+    }
+}
