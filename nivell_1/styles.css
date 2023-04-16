@@ -112,3 +112,59 @@ aside {
         padding-bottom: 18px;
     }
 }
+
+@media only screen and (max-width: 480px) {
+
+    #sup {
+        flex-direction: column;
+    }
+
+   .sup1, #sup2 {
+        width: auto;
+    }
+
+    #sup2 {
+        margin: 18px 0 18px 0;
+    }
+
+    main {
+        background-color: #FFD939;
+    }
+
+    #container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    article {
+        background-color: rgb(0, 71, 99); 
+    }
+
+    section {
+        width: auto;
+        height: 18px;
+        background-color: #558991; 
+        margin: 0 0 18px 0;
+    }
+
+    #right {
+        margin: 0 0 18px 0;
+    }
+
+    #article-footer {
+        background-color:#97D4C5;
+    }
+
+    aside {
+        background-color: #FF784C;
+    }
+    
+    #aside1, #aside2 {
+        background-color: #FFAB64;
+    }
+    
+    #footer1 {
+        background-color:#FFBF60;    
+    }
+
+}
